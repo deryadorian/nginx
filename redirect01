@@ -1,0 +1,5 @@
+
+rewrite ^(/hakkinda/)(.*)$ http://wp.cibuu.com/$2 permanent;
+rewrite ^(/blog/)(.*)$ http://wp.cibuu.com/$2 permanent;
+rewrite ^(/yeniastroloji/)(.*)$ http://wp.cibuu.com/$2 permanent;
+rewrite ^(/yardim/)(.*)$ http://wp.cibuu.com/$2 permanent;
